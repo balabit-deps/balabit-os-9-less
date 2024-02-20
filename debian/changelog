@@ -1,3 +1,12 @@
+less (590-1ubuntu0.22.04.2) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Unsafe call and Possibly arbitrary code execution
+    - debian/patches/CVE-2022-48624.patch: add shell-quote
+      the filename when invoking LESSCLOSE in filename.c.
+    - CVE-2022-48624
+
+ -- Leonidas Da Silva Barbosa <leo.barbosa@canonical.com>  Tue, 20 Feb 2024 10:07:43 -0300
+
 less (590-1ubuntu0.22.04.1) jammy-security; urgency=medium
 
   * SECURITY UPDATE: fix OSC8 hyperlinks with invalid escape sequence
