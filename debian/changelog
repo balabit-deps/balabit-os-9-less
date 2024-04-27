@@ -1,3 +1,12 @@
+less (590-1ubuntu0.22.04.3) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Arbitrary command execution
+    - debian/patches/CVE-2024-32487.patch: Fix bug when viewing a file
+      whose name contains a newline. 
+    - CVE-2024-32487
+
+ -- Fabian Toepfer <fabian.toepfer@canonical.com>  Sat, 27 Apr 2024 22:32:45 +0200
+
 less (590-1ubuntu0.22.04.2) jammy-security; urgency=medium
 
   * SECURITY UPDATE: Unsafe call and Possibly arbitrary code execution
